@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js build
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\boushib\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Yarn\bin;C:\Users\boushib\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\boushib\AppData\Local\Programs\Python\Python38-32;C:\Users\boushib\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.1\bin;C:\Users\boushib\AppData\Roaming\npm;C:\Users\boushib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2\bin;C:\my_apps\flutter\bin;C:\Users\boushib\AppData\Local\Android\Sdk\tools;%ANDROI_HOME%\platform-tools;C:\Program Files\JetBrains\CLion 2020.1.2\bin;C:\Users\boushib\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.7.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Invariant Violation: Script must exist
+      at invariant (C:\Program Files (x86)\Yarn\lib\cli.js:2314:15)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:61496:11
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:328:14
+      at new Promise (<anonymous>)
+      at new F (C:\Program Files (x86)\Yarn\lib\cli.js:5301:28)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:307:12
+      at realRunCommand (C:\Program Files (x86)\Yarn\lib\cli.js:61581:23)
+      at action.action (C:\Program Files (x86)\Yarn\lib\cli.js:61642:16)
+
+npm manifest: 
+  {
+    "name": "buzzcurb",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.0cf8b554.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": ""
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/boushib/buzzcurb.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/boushib/buzzcurb/issues"
+    },
+    "homepage": "https://github.com/boushib/buzzcurb#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

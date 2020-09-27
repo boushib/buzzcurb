@@ -1,0 +1,20 @@
+{
+  "name": "buzzcurb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.0cf8b554.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'that works!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boushib/buzzcurb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boushib/buzzcurb/issues"
+  },
+  "homepage": "https://github.com/boushib/buzzcurb#readme"
+}
